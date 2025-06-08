@@ -1,79 +1,77 @@
-# Simple Calculator
+# 🧮 Simple Calculator
 
-This is a basic web-based calculator application built using **Java (Spring Boot)** for the backend and **HTML/JavaScript** for the frontend.
+This is a basic calculator web application built with **Spring Boot (Java)** for the backend and **HTML/JavaScript** for the frontend.
 
-## ✨ Features
+---
 
-- Supports four basic operations: Addition, Subtraction, Multiplication, and Division.
-- Interactive UI to enter operator and two numbers.
-- REST API-powered backend.
-- Error handling (e.g., divide by zero).
+## 🚀 Features
 
-## 🚀 How to Run
+- Perform basic arithmetic operations: **Addition**, **Subtraction**, **Multiplication**, **Division**
+- User-friendly UI to input operator and numbers
+- Backend REST API using Spring Boot
+- Input validation and error handling
+
+---
+
+## 🛠️ Technologies Used
+
+- Java (Spring Boot)
+- HTML, JavaScript
+- Maven (build tool)
+
+---
+
+## 🧪 How to Run Locally
 
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/aditya-divyam/Simple-Calculator.git
 cd Simple-Calculator
-2. Run the Spring Boot App
+### 2. Start the Spring Boot server
 bash
 Copy
 Edit
 mvn spring-boot:run
-3. Access the Calculator
-Open your browser and go to:
+### 3. Open in your browser
+Visit http://localhost:8080 to use the calculator.
 
-arduino
-Copy
-Edit
-http://localhost:8080
-🛠 Technologies Used
-Java with Spring Boot
-
-Maven for dependency management
-
-HTML, CSS, JavaScript (Vanilla)
-
-REST API
-
-📁 Project Structure
-swift
+## 📦 Project Structure
+css
 Copy
 Edit
 Simple-Calculator/
 ├── src/
 │   └── main/
-│       ├── java/com/example/Calculator/
-│       │   ├── CalculatorApplication.java
-│       │   └── CalculatorController.java
+│       ├── java/
+│       │   └── com/example/Calculator/
+│       │       ├── CalculatorApplication.java
+│       │       └── CalculatorController.java
 │       └── resources/
-│           └── static/index.html
+│           └── static/
+│               └── index.html
 ├── pom.xml
 └── README.md
-✅ Sample API Endpoints
-Operation	URL Example
-Addition	/api/add?a=5&b=2
-Subtract	/api/subtract?a=5&b=2
-Multiply	/api/multiply?a=5&b=2
-Divide	/api/divide?a=5&b=2
+## 🔁 Sample API Endpoints
+Operation	Endpoint	Example
+Addition	/api/add?a=5&b=3	Returns 8
+Subtraction	/api/subtract?a=5&b=3	Returns 2
+Multiplication	/api/multiply?a=5&b=3	Returns 15
+Division	/api/divide?a=6&b=2	Returns 3
 
-👨‍💻 Author
+## 👤 Author
 Aditya Divyam
 GitHub: @aditya-divyam
 
-📜 License
-This project is licensed under the MIT License.
+## 📄 License
+This project is open-source and available under the MIT License.
 
-yaml
+sql
 Copy
 Edit
 
----
+This is the full text for the `README.md` file. Just copy the entire text and paste it into your `README.md` file in your project. Once done, commit and push it to GitHub:
 
-### ✅ Next Step:
-1. Save this content into a file named `README.md` in your root project folder.
-2. Run:
-   ```bash
-   git add README.md
-   git commit -m "Add README.md"
-   git push
+```bash
+git add README.md
+git commit -m "Add proper README file"
+git push

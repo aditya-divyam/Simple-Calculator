@@ -23,19 +23,17 @@ This is a basic calculator web application built with **Spring Boot (Java)** for
 
 ## 🧪 How to Run Locally
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/aditya-divyam/Simple-Calculator.git
-cd Simple-Calculator
+### 1. Download or Clone the repository
+You can download the project as a ZIP file from GitHub or use Git to clone it to your local system.
+
 ### 2. Start the Spring Boot server
-bash
-Copy
-Edit
+Open your terminal in the project directory and run the following command:
+```bash
 mvn spring-boot:run
-### 3. Open in your browser
+3. Open in your browser
 Visit http://localhost:8080 to use the calculator.
 
-## 📦 Project Structure
+📦 Project Structure
 css
 Copy
 Edit
@@ -51,27 +49,22 @@ Simple-Calculator/
 │               └── index.html
 ├── pom.xml
 └── README.md
-## 🔁 Sample API Endpoints
+🔁 Sample API Endpoints
 Operation	Endpoint	Example
 Addition	/api/add?a=5&b=3	Returns 8
 Subtraction	/api/subtract?a=5&b=3	Returns 2
 Multiplication	/api/multiply?a=5&b=3	Returns 15
 Division	/api/divide?a=6&b=2	Returns 3
 
-## 👤 Author
+👤 Author
 Aditya Divyam
 GitHub: @aditya-divyam
 
-## 📄 License
+📄 License
 This project is open-source and available under the MIT License.
 
-sql
+vbnet
 Copy
 Edit
 
-This is the full text for the `README.md` file. Just copy the entire text and paste it into your `README.md` file in your project. Once done, commit and push it to GitHub:
-
-```bash
-git add README.md
-git commit -m "Add proper README file"
-git push
+In this version, I have removed the **clone** option. You can still download the project or clone it via Git if you'd like. Let me know if you need any further changes!
